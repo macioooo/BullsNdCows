@@ -3,12 +3,12 @@ package bullscows;
 import java.util.Scanner;
 import java.util.Random;
 
-public class SecretCode {
-    public static int howLong;  //all variables needed in other classes or methods
-    public static int possibleSymbols;
+class SecretCode {
+    protected static int howLong;  //all variables needed in other classes or methods
+    protected static int possibleSymbols;
 
-    public static String possibleSymbolsStr;
-    public static String lengthStr;
+    protected static String possibleSymbolsStr;
+    protected static String lengthStr;
 
     private static void setTheGame() {
         Scanner scanner = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class SecretCode {
         System.out.println("Okay, let's start a game!");
     }
 
-    public static String codeGenerator() {
+    protected static String codeGenerator() {
         Random random = new Random();
         String secretCode = "";
         boolean stop = false;
