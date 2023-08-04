@@ -2,12 +2,12 @@ package bullscows;
 
 import java.util.Scanner;
 
-public class CowsNdBullsCounter {
+class CowsNdBullsCounter {
     //variables needed in other classes as well
-    public static String input;
-    public static boolean wrongLength = false;
+    protected static String input;
+    protected static boolean wrongLength = false;
 
-    public static void checkingCowsAndBulls(String secretCode) {
+    protected static void checkingCowsAndBulls(String secretCode) {
         Scanner scanner = new Scanner(System.in);
         int turn = 1;
         boolean guessed = false;
