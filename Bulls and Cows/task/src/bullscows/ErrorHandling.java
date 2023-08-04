@@ -1,8 +1,8 @@
 package bullscows;
 
 //This class is responsible for looking for an Errors in the program
-public class ErrorHandling {
-    public static void ErrorCom() {
+class ErrorHandling {
+    static void ErrorCom() {
         if (SecretCode.possibleSymbolsStr != null) {
             if (SecretCode.howLong > Integer.parseInt(SecretCode.possibleSymbolsStr)) {
                 System.out.printf("Error: it's not possible to generate a code with a length of %d with %d unique symbols.", SecretCode.howLong, SecretCode.possibleSymbols);
