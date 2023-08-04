@@ -1,8 +1,3 @@
-This is the *Bulls and Cows* project I made myself.
+This is a simple game of code-breaking. The computer generates a secret code, and the player has to guess it. At each turn, the player guesses a number, and the computer tells them how many bulls and cows they have. A bull is a symbol (digit or a letter, depends how many signs in game you will choose) that is both in the secret code and in the correct position. A cow is a symbol that is in the secret code, but not in the correct position.
 
-
-<p>Write your own advanced version of the classic code breaking game "Bulls and Cows". Start with recreating the original version of the game and then take it to a new level.</p><br/><br/>Learn more at <a href="https://hyperskill.org/projects/53?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/53</a>
-
-Here's the link to the project: https://hyperskill.org/projects/53
-
-Check out my profile: https://hyperskill.org/profile/506156499
+The game is over when the player guesses the secret code correctly.
